@@ -1,0 +1,36 @@
+/*
+Merge sort algorithm
+split each element into partitions of size 1
+recursively merge adjancent partitions
+  for i = leftPartStartIndex to rightPartLastIndex inclusive
+    if leftPartHeadValue <= rightPartHeadValue
+      copy leftPartHeadValue
+    else: copy rightPartHeadValue
+copy elements back to original array
+*/
+import java.util.*;
+
+
+
+public class MergeSort {
+  //--Variables to sort
+  int[] array;
+  int[] tempArray;
+  int size;
+
+  public static void main(String[] args) {
+    //--Generate sequence of random numbers
+
+    
+    //--Add values to linked list
+    
+
+  }//end main
+
+  //--Method to implement sort
+  public void sort(int[] inputArray) {
+  
+  }//end method
+
+
+}//end class
